@@ -1,0 +1,93 @@
+@import '../../styles/mixins';
+
+.test-detail-main-course {
+  box-sizing: border-box;
+  background-color: white;
+  float: left;
+  width: 70%;
+  height: auto;
+  margin-bottom: 14px;
+  padding: 10px 20px;
+  .title{
+    width: 75%;
+    float: left;
+    h1{
+      color: black;
+      font-size: 21px;
+      text-align: start;
+    }
+    height: 60px;
+  }
+  .utility{
+    box-sizing: border-box;
+    width: 23%;
+    float: right;
+    margin-top: 20px;
+    .icon-item{
+      margin-left: 15px;
+      color: #8495A6;
+      font-size: 20px;
+      &:hover{
+        color: gray;
+      }
+    }
+  }
+  .detail{
+    margin-top: 18px;
+    color: #C4C4C4;
+    font-size: 15px;
+    .icon-item{
+      font-size: 12px;
+      vertical-align: baseline;
+    }
+    .avatar{
+      display: inline-block;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-image: url(./../../images/avatar.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 15px;
+      vertical-align: -11%;
+    }
+  }
+
+  .info{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    .tag{
+      display: inline-block;
+      padding: 0 5px;
+      height: 20px;
+      border-radius: 10px;
+      width: auto;
+      background: #F0F0F0;
+      font-size: 12px;
+      line-height: 20px;
+      font-weight: bold;
+      margin-right: 5px;
+    }
+    .date{
+      float: right;
+      color: #C4C4C4;
+      font-size: 15px;
+    }
+  }
+  .start{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background: #1D86E0;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    &:hover{
+      cursor: pointer;
+      background: blue;
+    }
+  }
+}

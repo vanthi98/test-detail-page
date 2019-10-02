@@ -1,0 +1,59 @@
+@import '../../styles/mixins';
+
+.test-detail-rating {
+    box-sizing: border-box;
+    width: 70%;
+    float: left;
+    background-color: white;
+    height: auto;
+    padding: 10px 20px;
+    h1{
+        color: black;
+        font-size: 22px;
+        text-align: start;
+    }
+    .user{
+        height: 60px;
+        position: relative;
+        margin-bottom: 20px;
+        .avatar{
+          position: absolute;
+          border-radius: 50%;
+          height: 30px;
+          width: 30px;
+          color: white;
+          line-height: 30px;
+          text-align: center;
+          font-size: 18px;
+          top: 50%;
+          left: 10px;
+          transform: translateY(-50%);
+        }
+        .info{
+            position: absolute;
+            height: 50px;
+            top: 5px;
+            left: 60px;
+            .accout-name{
+              font-weight: bold;
+            }
+            .comment{
+                display: inline-block;
+                padding: 0 10px;
+                height: 30px;
+                border-radius: 15px;
+                width: auto;
+                background: #F0F0F0;
+                font-size: 12px;
+                line-height: 30px;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+        }
+        .time{
+            float: right;
+            color: #C4C4C4;
+            font-size: 15px;
+        }
+    }
+}

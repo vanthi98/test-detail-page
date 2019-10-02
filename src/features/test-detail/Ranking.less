@@ -1,0 +1,62 @@
+@import '../../styles/mixins';
+
+.test-detail-ranking {
+  box-sizing: border-box;
+  background-color: white;
+  float: right;
+  width: 29%;
+  height: auto;
+  margin-left: 10px;
+  padding: 10px 20px;
+  h1{
+    color: black;
+    font-size: 22px;
+    text-align: start;
+  }
+  .user{
+    height: 60px;
+    position: relative;
+    .user-ranking{
+      position: absolute;
+      font-size: 20px;
+      line-height: 60px;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+    }
+    .avatar{
+      position: absolute;
+      border-radius: 50%;
+      height: 30px;
+      width: 30px;
+      color: white;
+      line-height: 30px;
+      text-align: center;
+      font-size: 18px;
+      top: 50%;
+      left: 40px;
+      transform: translateY(-50%);
+    }
+    .info{
+      position: absolute;
+      height: 50px;
+      top: 5px;
+      left: 80px;
+      .accout-name{
+        font-weight: bold;
+      }
+      .user-name{
+        font-size: 14px;
+        color: #C4C4C4;
+      }
+    }
+    .marks{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10px;
+      line-height: 25px;
+      font-weight: bold;
+    }
+  }
+}
