@@ -13,7 +13,7 @@ This project is currently in development. Users can filter tweets by username an
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-Some basic Git commands are:
+Use this command to change brand to test-detail
 ```
 git checkout test-detail
 ```
