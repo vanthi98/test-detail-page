@@ -27,4 +27,8 @@ To Start Server:
 
 To Visit App:
 
-`localhost:6075/test-detail`  
+`localhost:6075/test-detail` 
+
+To Visit Rekit studio:
+
+`localhost:6076` 
