@@ -1,14 +1,9 @@
 # README
 ## Project Test Detail Page
 
-#### Example:
-
-TweetWorld 
-
-An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
-
 #### Project Status
-This project use Rekit and MockAPI to build a application which recevice data from API and render to interface.
+This project use `Rekit` and `MockAPI` to build a application which recevice data from API and render to interface.
+This project also build width `ReactJS`, `LESS`, `axios`
 
 #### Project Process:
 
